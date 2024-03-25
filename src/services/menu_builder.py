@@ -36,7 +36,7 @@ class MenuBuilder:
             for existent_dish in self.menu_data.dishes:
                 recipe_restrictions = existent_dish.get_restrictions()
                 if restriction not in recipe_restrictions:
-                  filtered_dishes.add(existent_dish)
+                    filtered_dishes.add(existent_dish)
 
         for dish in filtered_dishes:
             dish_dict = {
